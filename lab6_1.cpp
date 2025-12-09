@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 
 int main(){
@@ -19,7 +20,8 @@ int main(){
             OddCount++;
         }
     }
-    cout << "#Even numbers = "<< EvenCount << endl;
+    
+cout << "#Even numbers = "<< EvenCount << endl;
     cout << "#Odd numbers = "<< OddCount << endl;
     return 0;
 }
